@@ -1,0 +1,10 @@
+URxvt*transparent: true
+URxvt*foreground: #ffffff
+URxvt*background: Black
+URxvt.font: xft:DejaVu Sans Mono:pixelsize=12:antialias=true
+URxvt*scrollBar: false
+URxvt*letterSpace: -2
+
+URxvt.keysym.Shift-Control-V: perl:clipboard:paste
+URxvt.iso14755: False
+URxvt.perl-ext-common: default,clipboard
