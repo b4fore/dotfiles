@@ -1,5 +1,5 @@
 # another git prompt:
-source zsh-git-prompt/zshrc.sh
+source ~/.zsh/zsh-git-prompt/zshrc.sh
 
 # modify the prompt to contain git branch name if applicable
 git_prompt_info() {
