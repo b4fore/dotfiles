@@ -103,5 +103,10 @@ _load_settings "$HOME/.zsh/configs"
 # Local config
 [[ -f ~/.zshrc.local ]] && source ~/.zshrc.local
 
-alias ls='ls --color=auto'
-alias ll='ls -lah --color=auto'
+if [[ "$OSTYPE" == "darwin"* ]]; then
+    alias ls='ls -G'
+    alias ll='ls -lahG'
+else;
+    alias ls='ls --color=auto'
+    alias ll='ls -lah --color=auto'
+fi;
